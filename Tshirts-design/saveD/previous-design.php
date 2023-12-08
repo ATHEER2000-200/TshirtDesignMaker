@@ -17,7 +17,7 @@ $password = "root";
 $dbname = "sdesigns";
 
 // Establish database connection
-$conn = mysqli_connect('localhost','root','root','sdesigns');
+$conn = new mysqli("localhost","root","","tshirtdesignmaker");
 if(!$conn){
     die("Connection failed: " . mysqli_connect_error());
 }
