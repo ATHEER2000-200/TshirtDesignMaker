@@ -15,7 +15,7 @@ $servername = "localhost";
 $username = "root";
 $password = "root";
 $dbname = "sdesigns";
-
+//
 // Establish database connection
 $conn = new mysqli("localhost","root","","tshirtdesignmaker");
 if(!$conn){
